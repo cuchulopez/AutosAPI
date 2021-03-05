@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1eraAPI</name>
+    </assembly>
+    <members>
+        <member name="M:_1eraAPI.Controllers.MarcasController.GetMarcas">
+            <summary>
+            Obtener todas las Marcas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.MarcasController.GetMarca(System.Int32)">
+            <summary>
+            Obtener marca por Id
+            </summary>
+            <param name="marcaId">Id de la marca</param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.MarcasController.CrearMarca(_1eraAPI.Models.DTOs.MarcasDTO)">
+            <summary>
+            Crear una marca
+            </summary>
+            <param name="marcasDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.MarcasController.ActualizarMarca(System.Int32,_1eraAPI.Models.DTOs.MarcasDTO)">
+            <summary>
+            Actualizar una Marca existente
+            </summary>
+            <param name="marcaId"></param>
+            <param name="marcaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.MarcasController.BorrarMarca(System.Int32)">
+            <summary>
+            Borrar una marca
+            </summary>
+            <param name="marcaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.GetModelos">
+            <summary>
+            Obtener todos los modelos de autos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.GetModelo(System.Int32)">
+            <summary>
+            Obtener modelo por ID
+            </summary>
+            <param name="modeloId">Id del modelo de auto</param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.GetModeloPorMarca(System.Int32)">
+            <summary>
+            Obtener modelos por marca
+            </summary>
+            <param name="MarcaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.Buscar(System.String)">
+            <summary>
+            Buscar mediante una palabra
+            </summary>
+            <param name="nombre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.CrearModelo(_1eraAPI.Models.DTOs.ModelosCreateDTO)">
+            <summary>
+            Crear un modelo
+            </summary>
+            <param name="ModelosDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.ActualizarModelo(System.Int32,_1eraAPI.Models.DTOs.ModelosDTO)">
+            <summary>
+            Modificar un modelo
+            </summary>
+            <param name="modeloId">Id del modelo de auto</param>
+            <param name="modeloDTO">Campos para modificar</param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.ModelosController.BorrarModelo(System.Int32)">
+            <summary>
+            Eliminar un modelo
+            </summary>
+            <param name="modeloId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Obtener todos los usuarios.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.UsuariosController.GetUsuario(System.Int32)">
+            <summary>
+            Obtener usuario por Id.
+            </summary>
+            <param name="usuarioId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.UsuariosController.Registro(_1eraAPI.Models.DTOs.UsuariosAuthDTO)">
+            <summary>
+            Registrar un usuario
+            </summary>
+            <param name="usuariosAuthDTO">Campos requeridos para registrar un usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:_1eraAPI.Controllers.UsuariosController.Login(_1eraAPI.Models.DTOs.UsuarioAuthLoginDTO)">
+            <summary>
+            Login de usuario
+            </summary>
+            <param name="usuarioAuthLoginDTO">Campos requeridos para login</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
